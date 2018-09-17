@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{735DAF92-7478-66F1-42CB-648DE9CA287A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_1_1;UNITY_2017_1;UNITY_2017;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;MOBILE_INPUT;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\animationBackground.cs" />
+     <Compile Include="Assets\Scripts\Aprender\Button.cs" />
+     <Compile Include="Assets\Scripts\Aprender\Events.cs" />
+     <Compile Include="Assets\Scripts\Aprender\General.cs" />
+     <Compile Include="Assets\Scripts\Aprender\HierrachyManager.cs" />
+     <Compile Include="Assets\Scripts\Aprender\InputsHandler.cs" />
+     <Compile Include="Assets\Scripts\Aprender\LineRendererAttributes.cs" />
+     <Compile Include="Assets\Scripts\Aprender\PlatformChecker.cs" />
+     <Compile Include="Assets\Scripts\Aprender\Responsive.cs" />
+     <Compile Include="Assets\Scripts\Aprender\SmoothCurve.cs" />
+     <Compile Include="Assets\Scripts\Aprender\TracingPart.cs" />
+     <Compile Include="Assets\Scripts\Aprender\TracingPoint.cs" />
+     <Compile Include="Assets\Scripts\Aprender\WritingHandler.cs" />
+     <Compile Include="Assets\Scripts\AtrapaElNumero\destroyNumber.cs" />
+     <Compile Include="Assets\Scripts\AtrapaElNumero\gameControllerAEN.cs" />
+     <Compile Include="Assets\Scripts\AtrapaElNumero\generarNumero.cs" />
+     <Compile Include="Assets\Scripts\AtrapaElNumero\menuPausaAEN.cs" />
+     <Compile Include="Assets\Scripts\AtrapaElNumero\ScorePointNumber.cs" />
+     <Compile Include="Assets\Scripts\AtrapaElNumero\spawnNumber.cs" />
+     <Compile Include="Assets\Scripts\AtrapaLaLetra\BarraProgreso.cs" />
+     <Compile Include="Assets\Scripts\AtrapaLaLetra\DestroyLetter.cs" />
+     <Compile Include="Assets\Scripts\AtrapaLaLetra\GameController.cs" />
+     <Compile Include="Assets\Scripts\AtrapaLaLetra\generarLetra.cs" />
+     <Compile Include="Assets\Scripts\AtrapaLaLetra\MenuPausa.cs" />
+     <Compile Include="Assets\Scripts\AtrapaLaLetra\MovePlayer.cs" />
+     <Compile Include="Assets\Scripts\AtrapaLaLetra\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\AtrapaLaLetra\ScorePoint.cs" />
+     <Compile Include="Assets\Scripts\AtrapaLaLetra\soundLetter.cs" />
+     <Compile Include="Assets\Scripts\AtrapaLaLetra\SpawnLetters.cs" />
+     <Compile Include="Assets\Scripts\BubbleShooter\Controller\BubbleController.cs" />
+     <Compile Include="Assets\Scripts\BubbleShooter\Controller\BubbleMatrixController.cs" />
+     <Compile Include="Assets\Scripts\BubbleShooter\Controller\BubbleShooterController.cs" />
+     <Compile Include="Assets\Scripts\BubbleShooter\Controller\GameController.cs" />
+     <Compile Include="Assets\Scripts\BubbleShooter\Controller\SplashScreenController.cs" />
+     <Compile Include="Assets\Scripts\BubbleShooter\Events\GameEvents.cs" />
+     <Compile Include="Assets\Scripts\BubbleShooter\Extensions\ArrayListExtension.cs" />
+     <Compile Include="Assets\Scripts\BubbleShooter\Helpers\BubbleMatrixControllerHelper.cs" />
+     <Compile Include="Assets\Scripts\BubbleShooter\Helpers\JQMath.cs" />
+     <Compile Include="Assets\Scripts\BubbleShooter\Helpers\JQUtils.cs" />
+     <Compile Include="Assets\Scripts\BubbleShooter\menuBubbleShooter.cs" />
+     <Compile Include="Assets\Scripts\BubbleShooter\Model\Bubble.cs" />
+     <Compile Include="Assets\Scripts\BubbleShooter\Model\BubbleMatrix.cs" />
+     <Compile Include="Assets\Scripts\BubbleShooter\Model\BubbleMatrixGeometry.cs" />
+     <Compile Include="Assets\Scripts\BubbleShooter\Model\Game.cs" />
+     <Compile Include="Assets\Scripts\BubbleShooter\Test\Unit\BubbleMatrixControllerHelperTest.cs" />
+     <Compile Include="Assets\Scripts\BubbleShooter\View\GUI\GameFinishedGUI.cs" />
+     <Compile Include="Assets\Scripts\BubbleShooter\View\GUI\HUD.cs" />
+     <Compile Include="Assets\Scripts\BubbleShooter\View\GUI\MenuGUI.cs" />
+     <Compile Include="Assets\Scripts\BubbleShooter\View\GUI\SplashScreenGUI.cs" />
+     <Compile Include="Assets\Scripts\checkTipoDeControl.cs" />
+     <Compile Include="Assets\Scripts\menuAjustes.cs" />
+     <Compile Include="Assets\Scripts\menuJugar.cs" />
+     <Compile Include="Assets\Scripts\menuMinijuegos.cs" />
+     <Compile Include="Assets\Scripts\menuPrincipal.cs" />
+     <Compile Include="Assets\Scripts\menuTutorial.cs" />
+     <Compile Include="Assets\Scripts\PreLoaderLevel.cs" />
+     <Compile Include="Assets\Scripts\tipoDeControl.cs" />
+     <Compile Include="Assets\Scripts\Tutorial\cambiarImagen.cs" />
+     <Compile Include="Assets\Scripts\Volumen.cs" />
+     <Compile Include="Assets\Scripts\VolumenOtroNivel.cs" />
+     <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
+     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{AD31F745-6DA6-D8D2-EFF6-A166BE40072F}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
